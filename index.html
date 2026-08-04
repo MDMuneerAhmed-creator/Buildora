@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buildora — AI Business Roadmap & Feasibility Platform</title>
+    <!-- Suppress benign Vite WebSocket errors and iframe IndexedDB errors -->
+    <script>
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && event.reason.message) {
+          const msg = event.reason.message.toLowerCase();
+          if (msg.includes('websocket') || msg.includes('database is closing') || msg.includes('indexeddb') || msg.includes('hidden')) {
+            event.preventDefault();
+          }
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
