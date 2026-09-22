@@ -132,12 +132,12 @@ _Add screenshots of the Home Page, Login, Explore, Roadmap, and AI Copilot here.
 
 **Vercel**
 
-_Add your deployment URL here after deployment._
+_https://buildora3-0-2vhb.vercel.app/_
 
 Example:
 
 ```
-https://your-project.vercel.app
+(https://buildora3-0-2vhb.vercel.app/)
 ```
 
 ---
