@@ -122,12 +122,6 @@ npm run build
 
 ---
 
-# 📸 Screenshots
-
-_Add screenshots of the Home Page, Login, Explore, Roadmap, and AI Copilot here._
-
----
-
 # 🌐 Live Demo
 
 **Vercel**
